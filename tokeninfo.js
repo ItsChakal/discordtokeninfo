@@ -2,9 +2,6 @@ const readline = require('readline').createInterface({
     input: process.stdin,
     output: process.stdout
 });
-const {
-    error
-} = require('console');
 const Discord = require('discord.js')
 const client = new Discord.Client()
 readline.question('Enter an Token : ', token => {
